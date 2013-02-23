@@ -59,6 +59,15 @@ h2.article_title a, a:visited {
 	padding: 5px;
 }
 
+.dashboard li {
+	background-image: url('../img/flag.png');
+	background-repeat: no-repeat;
+	list-style-type: none;
+	margin-left: 0;
+	min-height: 24px;
+	padding-left: 20px;
+}
+
 .feed-link {
 	font-size: 14px;
 	font-weight: normal;
@@ -94,6 +103,10 @@ div.navbar-inner {
 	border-radius: 0;
 	box-shadow: none;
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd038', endColorstr='#d8b32e',GradientType=0 ); /* IE6-8 */`
+}
+
+ul.newsfeed {
+	margin: 0 0 0 5px;
 }
 
 /* ID */
