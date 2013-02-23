@@ -5,7 +5,7 @@
 	<jdoc:include type="head" />
 	<title><?php $title = $this->getTitle(); ?></title>
 	<link href="<?php echo $this->baseurl ?>/templates/quailv2/css/bootstrap.min.css" rel="stylesheet">
-	<link href="<?php echo $this->baseurl ?>/templates/quailv2/css/bootstrap-responsive.min.css" rel="stylesheet">
+	<!--<link href="<?php echo $this->baseurl ?>/templates/quailv2/css/bootstrap-responsive.min.css" rel="stylesheet">-->
 	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/quailv2/css/template.css" type="text/css" />
 </head>
 <body>
@@ -45,14 +45,7 @@
 			<div class="navbar" id="menubar">
 				<div class="navbar-inner" style="min-height: 0;">
 					<div class="container">
-						<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-					        <span class="icon-bar"></span>
-					        <span class="icon-bar"></span>
-					        <span class="icon-bar"></span>
-					      </a>
-						<div class="nav-collapse collapse">
-							<jdoc:include type="modules" name="menubar" style="xhtml" />
-						</div>
+						<jdoc:include type="modules" name="menubar" style="xhtml" />
 					</div>
 				</div>		
 			</div>

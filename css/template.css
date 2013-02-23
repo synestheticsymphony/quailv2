@@ -110,7 +110,7 @@ div.navbar-inner {
 
 #container {
 	margin: auto;
-	max-width: 984px;
+	width: 984px;
 	padding: 0;
 	position: relative;
 }
@@ -199,6 +199,8 @@ div.navbar-inner {
 
 /* Smaller styles */
 
+/* Responsive design
+
 @media (max-width: 767px) {
 	body{
 		background: #fff;
@@ -235,4 +237,4 @@ div.navbar-inner {
 		border: 0;
 		border-radius: 0;
 	}
-}
+}*/
