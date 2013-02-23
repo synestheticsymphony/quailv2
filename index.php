@@ -59,15 +59,13 @@
 			</div>
 		</div>
 		<div class="row-fluid">
-			<div id="content" class="span12">
-				<jdoc:include type="component" />
-			</div>
-		</div>
-		<div class="row-fluid">
 			<jdoc:include type="modules" name="dashboard_row_1" style="xhtml" />
 		</div>
 		<div class="row-fluid">
 			<jdoc:include type="modules" name="dashboard_row_2" style="xhtml" />
+		</div>
+		<div id="content">
+			<jdoc:include type="component" />
 		</div>
 	</div>
 	<div id="footer">

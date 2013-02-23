@@ -3,7 +3,6 @@
 body {
 	background: rgb(95, 150, 62) url('../img/grass.jpg') repeat right top;
 	background-attachment: scroll;
-	padding-top: 10px;
 }
 
 /*Opera Fix*/
@@ -33,17 +32,13 @@ ul.actions li {
 }
 
 h2.article_title {
-	background-color: black;
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
-	font-size: 1.4em;
-	line-height: 1.4em;
+	border-bottom: 1px solid black;
+	font-size: 1.8em;
 	padding: 0;
-	text-align: center;
 }
 
 h2.article_title a, a:visited {
-	color: white;
+	color: black;
 }
 
 .category-module h4 {
@@ -88,6 +83,14 @@ h2.article_title a, a:visited {
 
 .feed-link a {
 	color: black;
+}
+
+.item-page {
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+	min-height: 0;
+	padding: 8px;
 }
 
 .navbar .nav > li > a {
@@ -135,7 +138,7 @@ ul.newsfeed {
 }
 
 #container {
-	margin: auto;
+	margin: 0 auto;
 	min-height: 100%;
 	padding: 0;
 	position: relative;
@@ -143,11 +146,8 @@ ul.newsfeed {
 }
 
 #content {
-	background: #fff;
-	border: 0;
-	margin-bottom: 10px;
 	min-height: 0;
-	overflow: auto;
+	padding-bottom: 64px;
 }
 
 #facebook_button {
