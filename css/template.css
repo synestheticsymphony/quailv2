@@ -135,6 +135,14 @@ tr[class*='cat-list-row'] td {
 	padding-left: 20px;
 }
 
+.dashboard ul.easyfolderlisting {
+	margin-left: 5px;
+}
+
+.dashboard ul.easyfolderlisting a, a:visited {
+	color: black;
+}
+
 .feed-link {
 	font-size: 14px;
 	font-weight: normal;
