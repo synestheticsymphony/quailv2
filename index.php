@@ -7,6 +7,14 @@
 	<link href="<?php echo $this->baseurl ?>/templates/quailv2/css/bootstrap.min.css" rel="stylesheet">
 	<!--<link href="<?php echo $this->baseurl ?>/templates/quailv2/css/bootstrap-responsive.min.css" rel="stylesheet">-->
 	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/quailv2/css/template.css" type="text/css" />
+	<!--[if !IE 7]>
+	<style type="text/css">
+		#container {
+			display:table;
+			height:100%
+		}
+	</style>
+<![endif]-->
 </head>
 <body>
 	<div id="container" class="container-fluid">
@@ -62,7 +70,9 @@
 			<jdoc:include type="modules" name="dashboard_row_2" style="xhtml" />
 		</div>
 	</div>
-	<div id="footer"></div>
+	<div id="footer">
+		<jdoc:include type="modules" name="footer" style="xhtml" />
+	</div>
 	<script src="<?php echo $this->baseurl ?>/templates/quailv2/js/jquery-1.9.1.min.js"></script>
 	<script src="<?php echo $this->baseurl ?>/templates/quailv2/js/bootstrap.min.js"></script>
 	<script src="<?php echo $this->baseurl ?>/templates/quailv2/js/bootstrap-collapse.js"></script>

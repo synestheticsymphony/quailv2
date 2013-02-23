@@ -6,7 +6,7 @@
         <authorEmail>palmzealot@gmail.com</authorEmail>
         <authorUrl></authorUrl>
         <copyright>2013, Jacob Johnson</copyright>
-        <license>GNU/GPL</license>
+        <license>Proprietary</license>
         <version>1.0.2</version>
         <description>Responsive update to the first Quail Crossing template, built on the Twitter Bootstrap template.</description>
         <files>
@@ -22,5 +22,6 @@
                 <position>slideshow</position>
                 <position>dashboard_row_1</position>
                 <position>dashboard_row_2</position>
+                <position>footer</position>
         </positions>
 </extension>
