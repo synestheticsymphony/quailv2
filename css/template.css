@@ -257,6 +257,18 @@ ul.newsfeed {
 	margin-bottom:10px;
 }
 
+#loginTable {
+	border-bottom: 1px solid black;
+}
+
+#loginTable td {
+	vertical-align: middle;
+}
+
+#login-form {
+	margin: 0;
+}
+
 #login_form {
 	background-color: #d7b12a;
 	display: none;
@@ -264,6 +276,16 @@ ul.newsfeed {
 	position: absolute;
 	top: 40px;
 	z-index: 99;
+}
+
+#login_form ul {
+	margin: 0;
+}
+
+#login_form ul li {
+	display: inline-block;
+	list-style-type: none;
+	padding: 5px;
 }
 
 .login_link, .login_link:visited {

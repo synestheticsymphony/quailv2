@@ -23,11 +23,11 @@
 				<div id="login_button" class="hidden-phone">
 					<?php
 						if(JFactory::getUser()->id) {?>
-					<form action="/~jake/gentry_joomla/" method="post" id="login-form">
+					<form action="/gentry_joomla/" method="post" id="login-form">
 						<input type="submit" name="Submit" class="button" id="logout_button" value="Logout">
 						<input type="hidden" name="option" value="com_users">
 						<input type="hidden" name="task" value="user.logout">
-						<input type="hidden" name="return" value="aW5kZXgucGhwP0l0ZW1pZD0xMDE=">
+						<input type="hidden" name="return" value="<?php echo $return; ?>">
 						<?php echo JHtml::_('form.token'); ?>
 					</form>
 					<?php
